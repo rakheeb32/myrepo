@@ -1,0 +1,9 @@
+hi hello northindia
+just edited
+<<<<<<< HEAD
+a new line updated
+extra line added
+||||||| 00ad79b... updated new line
+a new line updated
+=======
+>>>>>>> parent of 00ad79b... updated new line
