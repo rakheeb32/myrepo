@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh './mvnw clean compile'
+                git 'https://github.com/rakheeb32/myrepo.git'
+		sh './mvnw clean compile'
             }
         }
     }
